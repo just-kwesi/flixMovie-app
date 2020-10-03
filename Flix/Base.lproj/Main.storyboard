@@ -54,6 +54,7 @@
                                             <outlet property="posterView" destination="6L2-0P-UHZ" id="WrB-zr-gHy"/>
                                             <outlet property="synopsisLable" destination="1R1-T1-p4d" id="8Gz-TC-Xzf"/>
                                             <outlet property="titleLable" destination="1lu-8O-3Mp" id="JzW-uf-x4G"/>
+                                            <segue destination="5Ls-fb-9wd" kind="show" id="7hf-Rk-0hd"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -70,6 +71,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750.72463768115949" y="17.410714285714285"/>
+        </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="Fx5-gY-6y2">
+            <objects>
+                <viewController id="5Ls-fb-9wd" customClass="MovieDetailsViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="epT-kb-Ykr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="3xo-mR-xS4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ivj-UV-bBg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ihJ-Q1-v8x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1514" y="17"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BBE-hM-PM2">
